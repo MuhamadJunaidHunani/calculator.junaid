@@ -1,0 +1,70 @@
+body{
+    background-color: white;
+}
+.main-container{
+    border: 5px solid whitesmoke;
+    border-radius: 5%;
+    width: 350px;
+    height: 630px;
+    background-color: whitesmoke;
+    margin: auto;
+    margin-top: 130px;
+    box-shadow: 3px 7px 15px 15px wheat;
+}
+.CONVERTOR{
+    text-align: center;
+    text-decoration: underline;
+}
+.currency-hd{
+    text-transform: uppercase;
+    margin: 5PX ;
+}
+.currency{
+    text-decoration: underline 2px black;
+    margin: 10PX;
+}
+.currency:hover{
+    cursor: pointer;
+    background-color: lightblue;
+}
+.search{
+    width: 300PX;
+    height: 50PX;
+    margin: 0px;
+    margin-left: 28px;
+    outline: none;
+    padding: 7px;
+    
+}
+.search-container{
+    border-bottom:3px dashed black ;
+    padding:5px ;
+    margin: 5px;
+}
+.table{
+    margin:28px;
+    margin-top: 5px;
+}
+td{
+    border: 5px none whitesmoke;
+    display: inline-block;
+    margin: 8px;
+    margin-left: 15px;
+    padding: 10px;
+    border-radius: 100%;
+    width: 45px;
+    text-align: center;
+    font-size: 20px;
+    font-family: cursive;
+    background-color:rgb(6, 183, 206);
+    box-shadow: 1px 4px 14px 4px ;
+    
+}
+td:hover{
+    background-color: rgba(65, 105, 225, 0.767);
+    cursor: pointer;
+}
+td:active{
+    background-color: royalblue;
+    cursor: pointer;
+}
